@@ -17,13 +17,14 @@
   },
   "homepage": "https://github.com/The-Up-Coming/Server#readme",
   "dependencies": {
-    "express": "^4.17.1",
     "body-parser": "*",
     "consolidate": "*",
+    "cors": "^2.8.5",
     "dust": "*",
     "dustjs-helpers": "*",
     "dustjs-linkedin": "2.7.5",
-    "pg": "*",
-    "nodemon": "^2.0.2"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "pg": "*"
   }
 }
