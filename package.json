@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,14 +19,14 @@
   },
   "homepage": "https://github.com/The-Up-Coming/Server#readme",
   "dependencies": {
-    "body-parser": "*",
-    "consolidate": "*",
+    "body-parser": "^1.19.0",
+    "consolidate": "^0.15.1",
     "cors": "^2.8.5",
-    "dust": "*",
+    "dust": "^0.3.0",
     "dustjs-helpers": "*",
     "dustjs-linkedin": "2.7.5",
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
-    "pg": "*"
+    "pg": "^7.18.1"
   }
 }
